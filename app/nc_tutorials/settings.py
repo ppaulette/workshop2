@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-(j-#aqq@vs$3l#0(031z4_h(_*pa&ye#dt&x69_@(&a6(=+fpg
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 208125676811.dkr.ecr.us-east-1.amazonaws.com', 'localhost', '127.0.0.1'
+    'ec2-54-210-212-105.compute-1.amazonaws.com', '0.0.0.0','localhost', '127.0.0.1'
 
 ]
 
